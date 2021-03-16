@@ -19,16 +19,21 @@ class TestSampleAppTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testパスワードバリデーションの文字数() throws {
+        XCTContext.runActivity(named: "数字が2文字以上含まれている") { (_) in
+            XCTContext.runActivity(named: "合計7文字入力時") { _ in
+                XCTAssertFalse(PasswordValidator.validate(password: "abcde12"))
+            }
+            
+            XCTContext.runActivity(named: "合計8文字入力時") { _ in
+                XCTAssertTrue(PasswordValidator.validate(password: "abcdef12"))
+            }
+            
+            XCTContext.runActivity(named: "合計9文字入力時") { _ in
+                XCTAssertTrue(PasswordValidator.validate(password: "abcdefg12"))
+            }
         }
     }
+
 
 }

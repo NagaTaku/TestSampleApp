@@ -15,6 +15,7 @@
 		100C7DC725FF54BD007B2295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100C7DC525FF54BD007B2295 /* LaunchScreen.storyboard */; };
 		100C7DD225FF54BD007B2295 /* TestSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DD125FF54BD007B2295 /* TestSampleAppTests.swift */; };
 		100C7DDD25FF54BD007B2295 /* TestSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DDC25FF54BD007B2295 /* TestSampleAppUITests.swift */; };
+		100C7DEB25FF5A1C007B2295 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DEA25FF5A1C007B2295 /* PasswordValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		100C7DD825FF54BD007B2295 /* TestSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100C7DDC25FF54BD007B2295 /* TestSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSampleAppUITests.swift; sourceTree = "<group>"; };
 		100C7DDE25FF54BD007B2295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100C7DEA25FF5A1C007B2295 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				100C7DC325FF54BD007B2295 /* Assets.xcassets */,
 				100C7DC525FF54BD007B2295 /* LaunchScreen.storyboard */,
 				100C7DC825FF54BD007B2295 /* Info.plist */,
+				100C7DEA25FF5A1C007B2295 /* PasswordValidator.swift */,
 			);
 			path = TestSampleApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				100C7DBF25FF54B4007B2295 /* ViewController.swift in Sources */,
 				100C7DBB25FF54B4007B2295 /* AppDelegate.swift in Sources */,
 				100C7DBD25FF54B4007B2295 /* SceneDelegate.swift in Sources */,
+				100C7DEB25FF5A1C007B2295 /* PasswordValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

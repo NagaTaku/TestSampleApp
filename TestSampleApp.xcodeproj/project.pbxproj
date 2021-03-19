@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,15 @@
 		100C7DEB25FF5A1C007B2295 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DEA25FF5A1C007B2295 /* PasswordValidator.swift */; };
 		100C7DED26009B2A007B2295 /* AsyncString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DEC26009B2A007B2295 /* AsyncString.swift */; };
 		100C7DEF26009BC6007B2295 /* AsyncStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DEE26009BC6007B2295 /* AsyncStringTests.swift */; };
+		100C7DF1260393BF007B2295 /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DF0260393BF007B2295 /* LoggerProtocol.swift */; };
+		100C7DF326039DAD007B2295 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DF226039DAD007B2295 /* User.swift */; };
+		100C7DF526039DCA007B2295 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DF426039DCA007B2295 /* APIManager.swift */; };
+		100C7DF72603A02D007B2295 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DF62603A02D007B2295 /* UserManager.swift */; };
+		100C7DFD2603A361007B2295 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 100C7DFC2603A361007B2295 /* User.json */; };
+		100C7DFF2603A3B9007B2295 /* UserManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C7DFE2603A3B9007B2295 /* UserManagerTests.swift */; };
+		100C7E072603AED5007B2295 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 100C7E062603AED5007B2295 /* OHHTTPStubsSwift */; };
+		100C7E092603AED5007B2295 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 100C7E082603AED5007B2295 /* OHHTTPStubs */; };
+		100C7E0B2603B643007B2295 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 100C7E0A2603B643007B2295 /* User.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,14 @@
 		100C7DEA25FF5A1C007B2295 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
 		100C7DEC26009B2A007B2295 /* AsyncString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncString.swift; sourceTree = "<group>"; };
 		100C7DEE26009BC6007B2295 /* AsyncStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStringTests.swift; sourceTree = "<group>"; };
+		100C7DF0260393BF007B2295 /* LoggerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
+		100C7DF226039DAD007B2295 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		100C7DF426039DCA007B2295 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		100C7DF62603A02D007B2295 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		100C7DFC2603A361007B2295 /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		100C7DFE2603A3B9007B2295 /* UserManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerTests.swift; sourceTree = "<group>"; };
+		100C7E0A2603B643007B2295 /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		10F8469926047E7E005948E1 /* TestSampleAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestSampleAppTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100C7E072603AED5007B2295 /* OHHTTPStubsSwift in Frameworks */,
+				100C7E092603AED5007B2295 /* OHHTTPStubs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +129,11 @@
 				100C7DBE25FF54B4007B2295 /* ViewController.swift */,
 				100C7DC025FF54B4007B2295 /* Main.storyboard */,
 				100C7DEC26009B2A007B2295 /* AsyncString.swift */,
+				100C7DF426039DCA007B2295 /* APIManager.swift */,
+				100C7DF62603A02D007B2295 /* UserManager.swift */,
+				100C7DF82603A2F6007B2295 /* json */,
+				100C7DF0260393BF007B2295 /* LoggerProtocol.swift */,
+				100C7DF226039DAD007B2295 /* User.swift */,
 				100C7DC325FF54BD007B2295 /* Assets.xcassets */,
 				100C7DC525FF54BD007B2295 /* LaunchScreen.storyboard */,
 				100C7DC825FF54BD007B2295 /* Info.plist */,
@@ -124,6 +148,9 @@
 				100C7DD125FF54BD007B2295 /* TestSampleAppTests.swift */,
 				100C7DEE26009BC6007B2295 /* AsyncStringTests.swift */,
 				100C7DD325FF54BD007B2295 /* Info.plist */,
+				100C7E0A2603B643007B2295 /* User.json */,
+				100C7DFE2603A3B9007B2295 /* UserManagerTests.swift */,
+				10F8469926047E7E005948E1 /* TestSampleAppTests.xctestplan */,
 			);
 			path = TestSampleAppTests;
 			sourceTree = "<group>";
@@ -135,6 +162,14 @@
 				100C7DDE25FF54BD007B2295 /* Info.plist */,
 			);
 			path = TestSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		100C7DF82603A2F6007B2295 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				100C7DFC2603A361007B2295 /* User.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +188,8 @@
 			dependencies = (
 			);
 			name = TestSampleApp;
+			packageProductDependencies = (
+			);
 			productName = TestSampleApp;
 			productReference = 100C7DB725FF54B4007B2295 /* TestSampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +208,10 @@
 				100C7DCF25FF54BD007B2295 /* PBXTargetDependency */,
 			);
 			name = TestSampleAppTests;
+			packageProductDependencies = (
+				100C7E062603AED5007B2295 /* OHHTTPStubsSwift */,
+				100C7E082603AED5007B2295 /* OHHTTPStubs */,
+			);
 			productName = TestSampleAppTests;
 			productReference = 100C7DCD25FF54BD007B2295 /* TestSampleAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -225,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 100C7DAE25FF54B4007B2295;
+			packageReferences = (
+				100C7E052603AED5007B2295 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+			);
 			productRefGroup = 100C7DB825FF54B4007B2295 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100C7DFD2603A361007B2295 /* User.json in Resources */,
 				100C7DC725FF54BD007B2295 /* LaunchScreen.storyboard in Resources */,
 				100C7DC425FF54BD007B2295 /* Assets.xcassets in Resources */,
 				100C7DC225FF54B4007B2295 /* Main.storyboard in Resources */,
@@ -251,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100C7E0B2603B643007B2295 /* User.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +314,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100C7DF72603A02D007B2295 /* UserManager.swift in Sources */,
+				100C7DF526039DCA007B2295 /* APIManager.swift in Sources */,
 				100C7DBF25FF54B4007B2295 /* ViewController.swift in Sources */,
 				100C7DBB25FF54B4007B2295 /* AppDelegate.swift in Sources */,
 				100C7DBD25FF54B4007B2295 /* SceneDelegate.swift in Sources */,
+				100C7DF1260393BF007B2295 /* LoggerProtocol.swift in Sources */,
 				100C7DEB25FF5A1C007B2295 /* PasswordValidator.swift in Sources */,
 				100C7DED26009B2A007B2295 /* AsyncString.swift in Sources */,
+				100C7DF326039DAD007B2295 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100C7DFF2603A3B9007B2295 /* UserManagerTests.swift in Sources */,
 				100C7DD225FF54BD007B2295 /* TestSampleAppTests.swift in Sources */,
 				100C7DEF26009BC6007B2295 /* AsyncStringTests.swift in Sources */,
 			);
@@ -596,6 +647,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		100C7E052603AED5007B2295 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		100C7E062603AED5007B2295 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 100C7E052603AED5007B2295 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+		100C7E082603AED5007B2295 /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 100C7E052603AED5007B2295 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 100C7DAF25FF54B4007B2295 /* Project object */;
 }

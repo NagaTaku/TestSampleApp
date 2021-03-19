@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "A5209C89-4461-4325-B037-9C842B46AA75",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TestSampleApp.xcodeproj",
+        "identifier" : "100C7DCC25FF54BD007B2295",
+        "name" : "TestSampleAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

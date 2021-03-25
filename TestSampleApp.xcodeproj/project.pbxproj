@@ -32,6 +32,8 @@
 		10F846A326049166005948E1 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F846A226049166005948E1 /* Counter.swift */; };
 		10F846A5260491FB005948E1 /* CounterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F846A4260491FB005948E1 /* CounterSpec.swift */; };
 		10F846A72604976C005948E1 /* CountableBehaviorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F846A62604976C005948E1 /* CountableBehaviorSpec.swift */; };
+		1B5CD02E260CD00F003F598B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD02D260CD00F003F598B /* Person.swift */; };
+		1B5CD033260CD0BE003F598B /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD032260CD0BE003F598B /* PersonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		10F846A226049166005948E1 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		10F846A4260491FB005948E1 /* CounterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSpec.swift; sourceTree = "<group>"; };
 		10F846A62604976C005948E1 /* CountableBehaviorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountableBehaviorSpec.swift; sourceTree = "<group>"; };
+		1B5CD02D260CD00F003F598B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1B5CD032260CD0BE003F598B /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				100C7DBA25FF54B4007B2295 /* AppDelegate.swift */,
 				100C7DBC25FF54B4007B2295 /* SceneDelegate.swift */,
 				100C7DBE25FF54B4007B2295 /* ViewController.swift */,
+				1B5CD02D260CD00F003F598B /* Person.swift */,
 				100C7DC025FF54B4007B2295 /* Main.storyboard */,
 				100C7DEC26009B2A007B2295 /* AsyncString.swift */,
 				100C7DF426039DCA007B2295 /* APIManager.swift */,
@@ -164,6 +169,7 @@
 				100C7E0A2603B643007B2295 /* User.json */,
 				100C7DFE2603A3B9007B2295 /* UserManagerTests.swift */,
 				10F8469926047E7E005948E1 /* TestSampleAppTests.xctestplan */,
+				1B5CD032260CD0BE003F598B /* PersonTests.swift */,
 			);
 			path = TestSampleAppTests;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 				100C7DF526039DCA007B2295 /* APIManager.swift in Sources */,
 				100C7DBF25FF54B4007B2295 /* ViewController.swift in Sources */,
 				100C7DBB25FF54B4007B2295 /* AppDelegate.swift in Sources */,
+				1B5CD02E260CD00F003F598B /* Person.swift in Sources */,
 				10F846A326049166005948E1 /* Counter.swift in Sources */,
 				100C7DBD25FF54B4007B2295 /* SceneDelegate.swift in Sources */,
 				100C7DF1260393BF007B2295 /* LoggerProtocol.swift in Sources */,
@@ -341,6 +348,7 @@
 			files = (
 				10F846A72604976C005948E1 /* CountableBehaviorSpec.swift in Sources */,
 				10F846A5260491FB005948E1 /* CounterSpec.swift in Sources */,
+				1B5CD033260CD0BE003F598B /* PersonTests.swift in Sources */,
 				100C7DFF2603A3B9007B2295 /* UserManagerTests.swift in Sources */,
 				100C7DD225FF54BD007B2295 /* TestSampleAppTests.swift in Sources */,
 				100C7DEF26009BC6007B2295 /* AsyncStringTests.swift in Sources */,
